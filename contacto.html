@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Contacto</title>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <!-- Main Style -->
+  <link href="css/estilos.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+          <div class="row">
+           <div class="col-xs-12">
+            <hr>
+              <h3 class="text-center">Formulario de contacto</h3>
+              <hr/>
+             <form class="" role="form" id="form_email">
+              <div class="form-group">
+                <label for="contact_name">Nombre *</label>
+                <input id="contact_name" type="text" class="form-control" name="nombre">
+              </div>
+              <div class="form-group">
+                <label for="contact_email">E-mail *</label>
+                <input id="contact_email" type="email" class="form-control" name="email">
+              </div>
+              <div class="form-group">
+                <label for="contact_message">Mensaje *</label>
+                <textarea id="contact_message" class="form-control" name="msg" rows="6" cols="50"></textarea>
+              </div>
+              <input type="hidden" name="enviar_mail">
+              <button type="submit"  class="btn btn-primary btn-lg btn-block">Enviar</button>
+            </form>
+           </div>
+          </div>
+        </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrapValidator.min.js"></script>	
+<script type="text/javascript" src="js/noty.js"></script>
+<script type="text/javascript" src="js/language/es_ES.js"></script>
+<script type="text/javascript" src="js/funciones.js"></script>		
+</body>
+</html>
+      

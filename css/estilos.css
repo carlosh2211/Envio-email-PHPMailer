@@ -1,0 +1,4 @@
+#form_email .form-control-feedback {
+    position: static;
+    display: inline-block;
+}
